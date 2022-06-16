@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300743476350",
+    "project_id": "project-education-diabetes",
+    "storage_bucket": "project-education-diabetes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300743476350:android:a59ec137050b8b4737c42f",
+        "android_client_info": {
+          "package_name": "com.project.edukasidiabetesmilitus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300743476350-m6uaa1g27ltols905v950jdu74g2i3le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKRaHgQeXI1fo8-Qox3BsiAUaJTtP92E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300743476350-m6uaa1g27ltols905v950jdu74g2i3le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
