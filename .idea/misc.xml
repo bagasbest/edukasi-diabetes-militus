@@ -5,8 +5,14 @@
       <map>
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/drawable/bg_border.xml" value="0.154" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/drawable/bg_rounded.xml" value="0.154" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/drawable/bg_rounded_bottom.xml" value="0.154" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_home.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_main.xml" value="0.23282051282051283" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_add.xml" value="0.176" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_comment.xml" value="0.21875" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_edit.xml" value="0.2328125" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/item_testimony.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, HomeActivity::class.java))
-        }, 3000)
+        }, 5000)
 
     }
 

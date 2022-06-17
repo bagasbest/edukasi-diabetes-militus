@@ -1,9 +1,11 @@
 package com.project.edukasidiabetesmilitus
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
 import com.project.edukasidiabetesmilitus.databinding.ActivityHomeBinding
+import com.project.edukasidiabetesmilitus.testimony.TestimonyActivity
 
 class HomeActivity : AppCompatActivity() {
 
@@ -16,6 +18,10 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         initView()
+
+        binding.testimonyNext.setOnClickListener {
+            startActivity(Intent(this, TestimonyActivity::class.java))
+        }
     }
 
     private fun initView() {

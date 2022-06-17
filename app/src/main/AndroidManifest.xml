@@ -14,6 +14,18 @@
         android:theme="@style/Theme.EdukasiDiabetesMilitus"
         tools:targetApi="31">
         <activity
+            android:name=".TestimonyCommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testimony.TestimonyEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testimony.TestimonyAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testimony.TestimonyActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
