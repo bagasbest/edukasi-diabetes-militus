@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.auth.FirebaseAuth
 import com.project.edukasidiabetesmilitus.databinding.ActivityTestimonyBinding
 
 class TestimonyActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class TestimonyActivity : AppCompatActivity() {
     private var _binding : ActivityTestimonyBinding ? = null
     private val binding get() = _binding!!
     private var adapter : TestimonyAdapter? = null
+    private var role = ""
 
     override fun onResume() {
         super.onResume()
@@ -36,11 +38,16 @@ class TestimonyActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
+        role = if(FirebaseAuth.getInstance().currentUser != null) {
+            "admin"
+        } else {
+            "user"
+        }
         val layoutManager = LinearLayoutManager(this)
         layoutManager.reverseLayout = true
         layoutManager.stackFromEnd = true
         binding.rvTestimony.layoutManager = layoutManager
-        adapter = TestimonyAdapter()
+        adapter = TestimonyAdapter(role)
         binding.rvTestimony.adapter = adapter
     }
 

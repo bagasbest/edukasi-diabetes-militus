@@ -22,6 +22,14 @@ class MainActivity : AppCompatActivity() {
             .load(resources.getString(R.string.background))
             .into(binding.background)
 
+        Glide.with(this)
+            .load(R.drawable.logo)
+            .into(binding.logo)
+
+        Glide.with(this)
+            .load(R.drawable.karanganyar)
+            .into(binding.karanganyar)
+
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, HomeActivity::class.java))
         }, 5000)

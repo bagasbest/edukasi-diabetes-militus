@@ -14,7 +14,10 @@
         android:theme="@style/Theme.EdukasiDiabetesMilitus"
         tools:targetApi="31">
         <activity
-            android:name=".TestimonyCommentActivity"
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testimony.TestimonyCommentActivity"
             android:exported="false" />
         <activity
             android:name=".testimony.TestimonyEditActivity"
