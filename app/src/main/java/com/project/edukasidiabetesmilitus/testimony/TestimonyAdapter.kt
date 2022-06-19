@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide
 import com.google.firebase.firestore.FirebaseFirestore
 import com.project.edukasidiabetesmilitus.R
 import com.project.edukasidiabetesmilitus.databinding.ItemTestimonyBinding
+import com.project.edukasidiabetesmilitus.testimony.comment.TestimonyCommentActivity
 
 class TestimonyAdapter(private val role: String) : RecyclerView.Adapter<TestimonyAdapter.ViewHolder>() {
 
@@ -62,11 +63,11 @@ class TestimonyAdapter(private val role: String) : RecyclerView.Adapter<Testimon
                 }
 
                 mark.setOnClickListener {
-
+                    Toast.makeText(itemView.context, "Berhasil menandai postingan ini!", Toast.LENGTH_SHORT).show()
                 }
 
                 share.setOnClickListener {
-
+                    Toast.makeText(itemView.context, "Berhasil membagikan postingan ini!", Toast.LENGTH_SHORT).show()
                 }
 
                 delete.setOnClickListener {

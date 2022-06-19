@@ -12,9 +12,11 @@
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_register.xml" value="0.22239583333333332" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_add.xml" value="0.176" />
-        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_comment.xml" value="0.21875" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_comment.xml" value="0.23282051282051283" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_edit.xml" value="0.2328125" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/item_comment.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/item_testimony.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/EdukasiDiabetesMilitus/app/src/main/res/layout/popup_comment.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>

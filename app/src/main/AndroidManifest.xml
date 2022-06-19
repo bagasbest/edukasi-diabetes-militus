@@ -17,7 +17,7 @@
             android:name=".auth.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".testimony.TestimonyCommentActivity"
+            android:name=".testimony.comment.TestimonyCommentActivity"
             android:exported="false" />
         <activity
             android:name=".testimony.TestimonyEditActivity"
