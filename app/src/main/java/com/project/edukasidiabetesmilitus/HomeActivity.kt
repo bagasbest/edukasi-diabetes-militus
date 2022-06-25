@@ -8,7 +8,10 @@ import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.project.edukasidiabetesmilitus.auth.LoginActivity
 import com.project.edukasidiabetesmilitus.databinding.ActivityHomeBinding
+import com.project.edukasidiabetesmilitus.image_media.ImageActivity
+import com.project.edukasidiabetesmilitus.pdf_media.PDFActivity
 import com.project.edukasidiabetesmilitus.testimony.TestimonyActivity
+import com.project.edukasidiabetesmilitus.video_media.VideoActivity
 
 class HomeActivity : AppCompatActivity() {
 
@@ -22,16 +25,31 @@ class HomeActivity : AppCompatActivity() {
 
         initView()
 
-        binding.testimonyNext.setOnClickListener {
-            startActivity(Intent(this, TestimonyActivity::class.java))
-        }
-
-        binding.loginBtn.setOnClickListener {
-            if(FirebaseAuth.getInstance().currentUser != null) {
-                showLogoutDialog()
-            } else {
-                startActivity(Intent(this, LoginActivity::class.java))
+        binding.apply {
+            testimonyNext.setOnClickListener {
+                startActivity(Intent(this@HomeActivity, TestimonyActivity::class.java))
             }
+
+            loginBtn.setOnClickListener {
+                if(FirebaseAuth.getInstance().currentUser != null) {
+                    showLogoutDialog()
+                } else {
+                    startActivity(Intent(this@HomeActivity, LoginActivity::class.java))
+                }
+            }
+
+            photoNext.setOnClickListener {
+                startActivity(Intent(this@HomeActivity, ImageActivity::class.java))
+            }
+
+            pdfNext.setOnClickListener {
+                startActivity(Intent(this@HomeActivity, PDFActivity::class.java))
+            }
+
+            videoNext.setOnClickListener {
+                startActivity(Intent(this@HomeActivity, VideoActivity::class.java))
+            }
+
         }
     }
 

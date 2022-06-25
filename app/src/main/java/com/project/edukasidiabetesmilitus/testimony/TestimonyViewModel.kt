@@ -30,6 +30,7 @@ class TestimonyViewModel : ViewModel() {
                         model.name = document.data["name"].toString()
                         model.avatar = document.data["avatar"].toString()
                         model.image = document.data["image"].toString()
+                        model.commentCount = document.data["commentCount"].toString()
                         model.description = document.data["description"].toString()
 
                         listData.add(model)

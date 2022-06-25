@@ -13,4 +13,5 @@ data class TestimonyModel(
     var avatar : String? = null,
     var image : String? = null,
     var status : String? = null,
+    var commentCount : String? = null,
 ) : Parcelable

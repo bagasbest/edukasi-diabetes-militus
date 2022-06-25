@@ -64,11 +64,20 @@ class TestimonyCommentActivity : AppCompatActivity() {
             if (commentList.size > 0) {
                 adapter?.setData(commentList)
                 binding.noData.visibility = View.GONE
+                updateCommentCount(commentList.size.toString())
             } else {
                 binding.noData.visibility = View.VISIBLE
             }
             binding.progressBar.visibility = View.GONE
         }
+    }
+
+    private fun updateCommentCount(commentCount: String) {
+        FirebaseFirestore
+            .getInstance()
+            .collection("testimony")
+            .document(postId)
+            .update("commentCount", commentCount)
     }
 
     private fun showCommentDialog() {

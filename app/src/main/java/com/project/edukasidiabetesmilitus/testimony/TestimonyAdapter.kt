@@ -34,6 +34,7 @@ class TestimonyAdapter(private val role: String) : RecyclerView.Adapter<Testimon
                 status.text = model.status
                 title.text = model.title
                 description.text = model.description
+                commentCnt.text = "${model.commentCount} Balasan"
 
                 if(role == "admin") {
                     delete.visibility = View.VISIBLE

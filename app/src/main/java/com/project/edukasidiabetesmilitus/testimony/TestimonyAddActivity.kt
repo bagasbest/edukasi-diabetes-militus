@@ -94,6 +94,7 @@ class TestimonyAddActivity : AppCompatActivity() {
                     "avatar" to avatar,
                     "image" to image,
                     "status" to status,
+                    "commentCount" to "0",
                 )
 
                 FirebaseFirestore
