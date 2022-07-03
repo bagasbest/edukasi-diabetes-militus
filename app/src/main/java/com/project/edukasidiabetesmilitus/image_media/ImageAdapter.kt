@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.project.edukasidiabetesmilitus.databinding.ItemImageBinding
+import com.project.edukasidiabetesmilitus.video_media.VideoModel
 
-class ImageAdapter(private val imageList : ArrayList<ImageModel>) : RecyclerView.Adapter<ImageAdapter.ViewHolder>() {
+class ImageAdapter(private val imageList: ArrayList<ImageModel>) : RecyclerView.Adapter<ImageAdapter.ViewHolder>() {
 
     inner class ViewHolder(private val binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root) {
         @SuppressLint("SetTextI18n")
