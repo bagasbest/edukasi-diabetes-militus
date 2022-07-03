@@ -1,28 +1,27 @@
-package com.project.edukasidiabetesmilitus.video_media
+package com.project.edukasidiabetesmilitus.pdf_media
 
 import android.app.DownloadManager
 import android.content.DialogInterface
 import android.graphics.Bitmap
 import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.*
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
-import com.project.edukasidiabetesmilitus.databinding.ActivityVideoDetailBinding
+import com.project.edukasidiabetesmilitus.databinding.ActivityPdfdetailBinding
 
+class PDFDetailActivity : AppCompatActivity() {
 
-class VideoDetailActivity : AppCompatActivity() {
-
-    private var _binding : ActivityVideoDetailBinding? = null
+    private var _binding : ActivityPdfdetailBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        _binding = ActivityVideoDetailBinding.inflate(layoutInflater)
+        _binding = ActivityPdfdetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val link = intent.getStringExtra(VIDEO)
+        val link = intent.getStringExtra(PDF_LINK)
 
         binding.apply {
 
@@ -49,7 +48,7 @@ class VideoDetailActivity : AppCompatActivity() {
                 req.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
                 val dm = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
                 dm.enqueue(req)
-                Toast.makeText(this@VideoDetailActivity, "Downloading....", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@PDFDetailActivity, "Downloading....", Toast.LENGTH_SHORT).show()
             })
         }
     }
@@ -109,7 +108,8 @@ class VideoDetailActivity : AppCompatActivity() {
         _binding = null
     }
 
-    companion object {
-        const val VIDEO = "video"
+    companion object
+    {
+        const val PDF_LINK = "link"
     }
 }
