@@ -23,12 +23,8 @@ class MainActivity : AppCompatActivity() {
             .into(binding.background)
 
         Glide.with(this)
-            .load(R.drawable.logo)
+            .load(R.drawable.kopi_diabet_bg)
             .into(binding.logo)
-
-        Glide.with(this)
-            .load(R.drawable.karanganyar)
-            .into(binding.karanganyar)
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, HomeActivity::class.java))

@@ -37,7 +37,7 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buat Testimoni / Konsultasi Baru"
+            android:text="Buat Konsultasi Baru"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"

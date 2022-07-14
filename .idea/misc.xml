@@ -8,11 +8,16 @@
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_home.xml" value="0.22780797101449277" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_image.xml" value="0.144" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_image_detail.xml" value="0.136" />
+        <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_pdfactivity.xml" value="0.22239583333333332" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_pdfdetail.xml" value="0.23645833333333333" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony.xml" value="0.11499493414387031" />
+        <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_add.xml" value="0.23645833333333333" />
+        <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_comment.xml" value="0.23645833333333333" />
+        <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_testimony_edit.xml" value="0.23645833333333333" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_video.xml" value="0.22239583333333332" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/activity_video_detail.xml" value="0.23645833333333333" />
+        <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/item_comment.xml" value="0.23645833333333333" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/item_image.xml" value="0.16" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/item_pdf.xml" value="0.264" />
         <entry key="..\:/Projek Android/EdukasiDiabetesMilitus/app/src/main/res/layout/item_testimony.xml" value="0.11499493414387031" />
